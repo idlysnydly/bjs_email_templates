@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BJ's Email</title>
+  
+<!--[if gte mso 9]><xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<style type="text/css">
+
+  body {
+    width: 100% !important;
+    min-width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size:14px;
+  }
+  #backgroundTable {
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    line-height: 100% !important;
+  }
+  img {
+    outline: none;
+    text-decoration: none;
+    height:auto !important;
+    display:block;
+    width:100%;
+    -ms-interpolation-mode: bicubic;
+  }
+  a img {
+    border: none;
+  }
+  /* iOS BLUE LINKS */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+  table {
+    border-spacing: 0;
+    border-collapse: collapse !important;
+  }
+  td, th {
+    border-collapse: collapse !important;
+    vertical-align: top;
+  }
+  tbody{
+    padding:0; margin:0;
+  }
+  table, tr, td {
+    padding: 0;
+  }
+
+  /* LAYOUT */
+  .section{
+    width:100%;
+    background: #ffffff;
+  }
+  .row{
+    width:640px;
+    padding:0;
+    margin:0 auto;
+  }
+  
+  /* Six Column Grid */
+  .six-col-6{
+    width:620px;
+    margin: 0 auto !important;
+  }
+  .six-col-5{
+    width:510px;
+    margin: 0 auto !important;
+  }
+  .six-col-4{
+    width:410px;
+    margin: 0 auto !important;
+  }
+  .six-col-3{
+    width:305px;
+    margin: 0 auto !important;
+  }
+  .six-col-2{
+    width:200px;
+    margin: 0 auto !important;
+  }
+  .six-col-1{
+    width:95px;
+    margin: 0 auto !important;
+  }
+  /* Four Column Grid */
+  .four-col-4{
+    width:620px;
+    margin: 0 auto;
+  }
+  .four-col-2{
+    width:310px;
+    margin: 0 auto;
+  }
+  .four-col-1{
+    width:155px;
+    margin: 0 auto;
+  }
+  /* Padding */
+  .section-padding{
+    padding:0 0 15px;
+  }
+  .img-padding{
+    padding:0 0 10px;
+  }
+  .padding-20{
+    padding:20px;
+  }
+  .padding-10{
+    padding:10px;
+  }
+  .padding-5{
+    padding:5px;
+  }
+  .padding-5-5-10{
+  	padding:5px 5px 10px;
+  }
+
+  /* Typography */
+  h1, h2, h3, h4, p, ul, ol, li, a{
+    font-family: 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+  }  
+  h1{
+    font-size:28px;
+    line-height:1.125;
+    margin:10px auto;
+    font-weight:700;
+  }
+    h1 a{
+      color:#CC0033;
+    }
+  h2{
+    font-size:24px;
+    line-height:1.125;
+    margin:10px 0;
+    font-weight:700;
+  }
+  h3{
+    font-size:20px;
+    line-height:1.125;
+    margin:10px 0;
+    font-weight:700;
+  }
+  h4{
+    font-size:18px;
+    line-height:1.125;
+    margin:10px 0;
+    font-weight:700;
+  }
+  p, ol, ul, li{
+    font-weight: 300;
+    font-size:14px;
+  }
+  p{
+    line-height: 1.125;
+    margin:8px 0;
+  }
+  p.discount{
+    color:#CC0033;
+    font-style: italic;
+  }
+  td.stars{
+    padding:0 !important;
+    margin: 0 !important;
+  }
+  td.stars img{
+  	margin: 0 !important;
+  }
+  .strikethrough{
+  	text-decoration: line-through; 
+    font-size: 14px; 
+    font-weight: 500;
+  }
+  a{
+    text-decoration: none;
+    color: #CC0033;
+  }
+  a.text-white{
+    color:#ffffff;
+  }
+  h1 a, h2 a, h3 a, h4 a{
+    color:#000000;
+  }
+  strong{
+    font-weight: 700;
+  } 
+  .text-bold{
+    font-weight: 700;
+  }
+  .text-center{
+    text-align: center !important;
+  }
+  h3.text-center{
+    text-align:center;
+  }
+  sup{
+    line-height: 0;
+    font-size: 75%;
+    vertical-align: top;
+    mso-line-height-rule:exactly;
+  }
+  p sup{
+    vertical-align: 4px;
+  }
+  h2 sup{
+    vertical-align: 10px;
+  }
+  h3 sup{
+    vertical-align: 8px;
+  }
+  h4 sup{
+    vertical-align: 5px;
+  }
+  li sup{
+    vertical-align: 4px;
+  }
+  ul li{
+    line-height: 1.25; 
+    margin: 10px 0;
+  }
+
+
+  /* Colors */
+  .bg-red{
+    background:#cc0033;
+  }
+  .bg-red h1, .bg-red h2, .bg-red h3, .bg-red p, .bg-red a {
+    color: #ffffff !important;
+  }
+  .bg-white{
+    background:#ffffff;
+  }
+  .bg-lt-blue{
+    background:#E6F4FF;
+  }
+  .bg-blue{
+    background:#B1DFFF;
+  }
+  .bg-lt-grey{
+    background:#F3F4F6;
+  }
+  .bg-black{
+    background: #000000;
+  }
+  .bg-black h1, .bg-black h2, .bg-black h3, .bg-black p, .bg-black a {
+    color: #ffffff !important;
+  }
+  .text-red, .text-red a{
+    color:#cc0033 !important;
+  }
+  .text-white, .text-white a{
+    color: #ffffff !important;
+  }
+  h1.text-white, h2.text-white, h3.text-white, p.text-white, a.text-white {
+    color: #ffffff !important;
+  }
+  .border-dashed {
+    border:2px dashed #cc0033;
+  }
+
+  /* Componants */
+  .btn{
+    margin:10px auto .1px;
+  }
+  .btn-red{
+    background:#cc0033;
+  }
+  .btn-white{
+    background:#ffffff;
+  }
+  .btn td{
+    padding:7px 20px;
+    text-align: center;
+    font-size:16px;
+    font-weight: 700;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+  }
+  .btn td a{
+    text-decoration:none !important;
+    text-align: center;
+  }
+  .btn.btn-red{
+    color:#ffffff;
+    border:2px solid #CC0033;
+  }
+  .btn.btn-red td a{
+    color:#ffffff;
+  }
+  .btn.btn-white{
+    color:#cc0033;
+    border: 2px solid #ffffff;
+  }
+  .btn.btn-white td a{
+    color:#cc0033;
+  }
+
+  /* Header Styles */
+  .logo{
+    max-width:140px;
+  }
+  .header .nav, .header .nav td{
+  	vertical-align: middle;
+  }
+  .header .nav td a{
+    text-align: center !important;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px !important;
+    margin: 0 !important;
+  }
+  .header .details .greeting{
+    padding: 10px;
+  }
+  .header .details .stats{
+  	padding: 6px 10px 5px;
+  }
+  .header .details .greeting h4{
+  	font-size: 22px;
+    text-align: left; 
+    color: #ffffff; 
+    margin: 0;
+  }
+  .header .details p{
+    color: #6B7280; 
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.125 !important;
+    text-align: right;
+  }
+  .header .details .member-info-td, .header .details .member-info-td td{
+    vertical-align: middle;
+  }
+  
+  /* Footer Styles */
+  .section.footer p{
+    font-size:12px;
+    line-height: 1.25;
+    color:#595959;
+  }
+   .section.footer h4{
+    font-size:12px;
+    line-height: 1.25;
+    color:#595959;
+  }
+  .section.footer h4 a{
+  	text-decoration: none;
+  }
+  .section.footer a{
+    text-decoration: underline;
+    color: #595959;
+  }
+  .section.footer strong{
+    font-weight: 500;
+  }
+  .footer-padding{
+    padding:10px 30px 30px;
+  }
+  .footer-button-text{
+  	padding: 12px 10px 0;
+  }
+  
+  /* Utility Classes */
+  .ltr{
+    direction: ltr;
+  }
+  .mobile-hidden{
+    display: table;
+  }
+  .mobile-visible{
+    display: none;
+    mso-hide: all;
+  }
+  .mobile-visible table{
+    mso-hide: all;
+  }
+
+  /* Column with a Vertical Button */
+  .col-content{
+    vertical-align: top;
+  }
+  .col-btn-cta, .col-btn-cta td{
+    vertical-align: bottom !important;
+  }
+  /* Coupon Styling */
+  .border-dashed {
+    border:2px dashed #cc0033;
+  }
+  .coupon-padding{
+    padding:30px 20px;
+  }
+  .coupon-content{
+    vertical-align: top;
+  }
+  .coupon-content td{
+    vertical-align: top;
+  }
+  .coupon-content img{
+    height:auto !important;
+  }
+  .coupon-cta{
+    vertical-align: bottom !important;
+  }
+  .coupon-cta td{
+    vertical-align: bottom !important;
+  }
+
+    @media only screen and (max-width: 640px) {
+      .row{
+        width:100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        table-layout: auto !important;
+      }
+      .row-col{
+        white-space: normal !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        width: auto !important;
+        float:left !important;
+      }
+      .row-col .mobile-50{
+        max-width: 50% !important;
+        min-width: 50% !important;
+        width:50% !important;
+      }
+      .row-col.mobile-50{
+        max-width: 50% !important;
+        min-width: 50% !important;
+        width:50% !important;
+        float:none !important;
+      }
+      .row-padding{
+        padding:15px 0 !important;
+      }
+      th {
+        display: block !important;
+        width: 100% !important;
+      }
+      td {
+        direction: ltr !important;
+      }
+      .ltr{
+        direction: rtl !important;
+      }
+      .six-col-6, .six-col-5, .six-col-4, .six-col-3, .six-col-2, .six-col-1,.four-col-4, .four-col-2, .four-col-1{
+        width:100% !important;
+      }
+      .header .nav.first-child{
+        border-bottom: none !important;
+      }
+      .header .nav.second-child{
+        border-right: solid 1px #000000 !important;
+        border-bottom: none !important;
+      }
+      .header .nav td a{
+        font-size: 12px !important;
+      }
+      .header .row-col.nav{
+      	width:32% !important;
+        max-width:32% !important;
+        min-width:32% !important;
+        margin: 0 .66% !important;
+      }
+      .header .details .greeting{
+      	padding: 5px 10px !important;
+      }
+      .header .details .stats{
+      	padding: 5px 10px 12px !important;
+      }
+      .header .greeting h4{
+        text-align: left !important; 
+        margin: 5px 0 0 !important;
+      }
+      .header .details p{
+        text-align: left !important;
+        font-size: 10px !important;
+      }
+      .header .details .member-info-td{
+        display: inline-block !important;
+      }
+      img{
+        width:100% !important;
+      }
+      .btn{
+        width: 100% !important;
+      }
+      .six-col-2.border-dashed{
+        height:auto !important;
+        width: 100% !important;
+      }
+      .logo{
+        max-width:120px !important;
+        width:120px !important;
+      }
+      .mobile-hidden{
+        display: none !important;
+      }
+      .mobile-visible{
+        display: table !important;
+      }
+      .footer-button-text{
+        padding: 20px 10px 0 !important;
+      }
+    }
+</style>
+  
+
+</head>
+<body>	
+  <!-- Copy Inlined HTML From Here -->
+  <!-- START HEADER -->
+  <table class="section header" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 10px 0 0;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <!-- Logo -->
+        <td class="row-col logo-row">
+          <table align="center">
+            <tr><td>
+                <a href="https://www.bjs.com/" _label="Logo">
+                  <img src="https://s7d6.scene7.com/is/image/bjs/AbSS_logo_rgb-500px?$png$" alt="BJ's Absurdly Simple Savings" width="140" style="width:140px;" border="0" class="logo">
+                </a>
+            </td></tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- Member ID Number -->  
+  </td></tr></table>
+    <!-- START NAVIGATION -->
+  <table class="section header" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td  style="padding:10px 0 10px;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <!-- Nav Link -->
+        <td class="row-col nav" bgcolor="f3f4f6">
+          <table align="center" class="six-col-2" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="text-center padding-10" style="text-align: center;">
+                <table align="center"><tr>
+                  <td  class="mobile-hidden" style="padding: 5px;">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/ICONS_COLOR_Coupon?$PNG-Email-400-350$" width="24" style="width:24px !important;">
+                  </td>
+                  <td>
+                     <a href="https://bjs.onelink.me/rnBI/neavndel">
+                  Coupons</a>
+                  </td>
+                </tr></table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that becomes horizontal spacer on mobile -->
+        <td width="10" height="100%" class="mobile-hidden" style="font-size:2px; line-height:2px; float: left;">&nbsp;</td>
+        <!-- Nav Link -->
+       <td class="row-col nav" bgcolor="f3f4f6">
+          <table align="center" class="six-col-2" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="text-center padding-10" style="text-align: center;">
+                <table align="center"><tr>
+                  <td class="mobile-hidden" style="padding: 5px;">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/ICONS_COLOR_Deals?$PNG-Email-400-350$" width="24" style="width:24px !important;">
+                  </td>
+                  <td>
+                    <a href="https://www.bjs.com/deals">
+                  Deals</a>
+                  </td>
+                </tr></table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that becomes horizontal spacer on mobile -->
+        <td width="10" height="100%" class="mobile-hidden" style="font-size:2px; line-height:2px; float: left;">&nbsp;</td>
+        <!-- Nav Link -->
+       <td class="row-col nav" bgcolor="f3f4f6">
+          <table align="center" class="six-col-2" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="text-center padding-10" style="text-align: center;">
+                <a href="https://www.bjs.com/content?template=B&espot_main=ExclusiveMemberBenefits" style="text-align: center;">BJ's Services</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table> <!-- End Row -->
+    </td></tr></table> 
+  <table class="section header" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td  style="padding:0 0 15px;">
+    <table class="row details" bgcolor="cc0033" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td class="row-col">
+          <table class="six-col-2" width="200" align="left" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="member-info-td greeting">
+                <h4>
+                  <a href="https://www.bjs.com/account/accountDetails" _label="Greeting" style="color: #ffffff;">Hi, Member!</a>
+                </h4>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that becomes horizontal spacer on mobile -->
+        <!--td width="30" height="100%" class="mobile-hidden" style="font-size:10px; line-height:10px; float: left;">&nbsp;</td-->
+        
+        <td class="row-col">
+          <table class="six-col-4" width="410" align="right" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td dir="rtl" class="member-info-td stats">
+                <table dir="ltr" bgcolor="ED1944" style="border-radius: 5px; display: inline-block;" align="right" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td style="padding: 5px 2px 5px 10px;">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/ICONS_WHITE_StockUpSavings?$PNG-Email-400-350$" width="24" style="width:24px !important;">
+                  </td>
+                  <td style="padding: 7px 10px 5px 2px;">
+                    <p style="color: #ffffff; margin: 0">
+                      $0.00
+                    </p>
+                  </td>
+                </tr></table>
+                <!--table bgcolor="ED1944" style="border-radius: 5px; margin: 0 10px;" align="right" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td style="padding: 5px 2px 5px 10px;">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/ICONS_WHITE_Gas?$PNG-Email-400-350$" width="24" style="width:24px !important;">
+                  </td>
+                  <td style="padding: 7px 10px 5px 2px;">
+                    <p style="color: #ffffff; margin: 0">
+                      $0.00
+                    </p>
+                  </td>
+                </tr></table-->
+                <table dir="ltr" bgcolor="ED1944" style="border-radius: 5px; margin: 0 10px 0 0; display: inline-block;" align="right" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td style="padding: 5px 2px 5px 10px;">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/ICONS_WHITE_InClub?$PNG-Email-400-350$" width="24" style="width:24px !important;">
+                  </td>
+                  <td style="padding: 7px 10px 5px 2px;">
+                    <p style="color: #ffffff; margin: 0">
+                      Club Location
+                    </p>
+                  </td>
+                </tr></table>
+              </td>
+            </tr>
+          </table>
+        </td>
+       </tr>
+    </table>
+  </td></tr></table>
+  <!-- END HEADER -->
+  
+  
+  <!-- START OF MODULE four-col 2:1:1 --> 
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        
+        <td class="row-col">
+          <table class="four-col-4" bgcolor="003A5D" width="620" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="padding-5">
+                <h3 style="color: #ffffff; text-align: center;">Module header written in sentence case.</h3>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 1 -->
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        
+        <td class="row-col" bgcolor="8DC6E7">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-2?$png$" alt="Placeholder" border="0" width="310" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col mobile-50" bgcolor="8DC6E7">
+          <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col mobile-50" bgcolor="5FB3E4">
+          <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Category_1">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+            
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 2 -->
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0 0 15px;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        <td class="row-col mobile-50" bgcolor="5FB3E4">
+          <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td>
+                    <a href="#" _label="Category_1">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a>
+                </h4>
+                  <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars"><!-- Image Padding Here .img-padding -->
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="&#9733;&#9733;&#9733;&#9733;&#9733;" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col mobile-50" bgcolor="8DC6E7">
+          <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td>
+                    <a href="#" _label="Category_1">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a>
+                </h4>
+                  <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars"><!-- Image Padding Here .img-padding -->
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="&#9733;&#9733;&#9733;&#9733;&#9733;" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col" bgcolor="8DC6E7">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-2?$png$" alt="Placeholder" border="0" width="310" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 3 -->
+  <!-- END OF MODULE 2:1:1 Image:Product:Product -->
+  
+  <!-- START OF MODULE  2:1:1 Product:Product:Product --> 
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        
+        <td class="row-col">
+          <table class="four-col-4" bgcolor="003A5D" width="620" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="padding-5">
+                <h3 style="color: #ffffff; text-align: center;">Module header written in sentence case.</h3>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 1 -->
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0;">
+    <table class="row products" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        
+        <td class="row-col" bgcolor="5FB3E4">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto; width: 155px !important" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col mobile-50" bgcolor="8DC6E7">
+          <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col mobile-50" bgcolor="5FB3E4">
+          <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Category_1">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+            
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 2 -->
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0 0 15px;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        <td class="row-col mobile-50" bgcolor="5FB3E4">
+          <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td>
+                    <a href="#" _label="Category_1">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a>
+                </h4>
+                  <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars"><!-- Image Padding Here .img-padding -->
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="&#9733;&#9733;&#9733;&#9733;&#9733;" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col mobile-50" bgcolor="8DC6E7">
+          <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td>
+                    <a href="#" _label="Category_1">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a>
+                </h4>
+                  <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars"><!-- Image Padding Here .img-padding -->
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="&#9733;&#9733;&#9733;&#9733;&#9733;" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col" bgcolor="0082CA">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155" style="height: auto; width: 155px !important" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #ffffff;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center; color: #ffffff;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-White?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 3 -->
+  <!-- END OF MODULE 2:1:1 Product:Product:Product -->
+  
+  
+ <!-- START OF MODULE  2:2 Product:Product --> 
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        
+        <td class="row-col">
+          <table class="four-col-4" bgcolor="003A5D" width="620" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="padding-5">
+                <h3 style="color: #ffffff; text-align: center;">Module header written in sentence case.</h3>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 1 -->
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        
+        <td class="row-col mobile-50" bgcolor="5FB3E4">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-2" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col mobile-50" bgcolor="8DC6E7">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-2" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+            
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 2 -->
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0 0 15px;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        <td class="row-col mobile-50" bgcolor="8DC6E7">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-2" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="row-col mobile-50" bgcolor="5FB3E4">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-2" alt="Placeholder" border="0" width="155" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="padding-5-5-10">
+                <h4 style="text-align: center; margin: 5px 0;">
+                  <a href="#" _label="Category_2" style="color: #000000;">$XX&nbsp;<span class="strikethrough">$XX</span></a></h4>
+                <p style="text-align: center;">Product Description with 5px of Padding</p>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td class="stars">
+                    <img src="https://s7d6.scene7.com/is/image/bjs/Stars-Five-Black?$png$" alt="Four Star Rating" border="0" width="50" style="width:50px !important;">
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table><!-- End of Row 3 -->
+  <!-- END OF MODULE 2:2 Product:Product -->
+  
+  <!-- START OF MODULE: Banner Row -->
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0 0 15px;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        
+        <td class="row-col" bgcolor="cc0033">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td><!-- Image Padding Here .img-padding -->
+                    <a href="#" _label="Product_x">
+                      <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-2?$png$" alt="Placeholder" border="0" width="310" style="height: auto;" />
+                    </a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+            
+          </table>
+        </td>
+        <td class="row-col" bgcolor="cc0033">
+          <table class="four-col-2" width="310" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="padding-20">
+                <h3>
+                  <a href="#" _label="Banner_x" style="color: #ffffff;">Banner Header</a>
+                </h3>
+                <p style="color: #ffffff;">Description of the banner.</p>
+                <p><strong><a href="#" _label="Banner_x" style="color: #ffffff;">Text CTA&nbsp;&rsaquo;</a></strong></p>
+                <table class="btn btn-white" align="left" width="100%">
+                  <tr><td>
+                    <a href="#" _label="Button_x">Button CTA</a>
+                    </td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table>
+  <!-- END OF MODULE: Banner Row -->
+ 
+  <!-- START OF MODULE: Categories -->
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        
+        <td class="row-col">
+          <table class="mobile-row" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="mobile-50" bgcolor="cc0033">
+                <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td class="padding-10">
+                      <h2 style="color: #ffffff;">Even more ways to save.</h2>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="mobile-50" bgcolor="f3f4f6">
+                <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td>
+                      <table align="center" cellpadding="0" cellspacing="0" border="0">
+                        <tr><td><!-- Image Padding Here .img-padding -->
+                          <a href="#" _label="Category_1">
+                            <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155">
+                          </a>
+                          </td></tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="padding-10">
+                      <h4 style="text-align: center;">
+                        <a href="#" _label="Category_1" style="color: #000000;">Category 1&nbsp;&rsaquo;</a>
+                      </h4>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+          </tr></table>
+        </td>
+        <td dir="rtl" class="row-col">
+          <table class="mobile-row" cellpadding="0" cellspacing="0" border="0"><tr>
+            <td class="mobile-50 ltr" bgcolor="f3f4f6">
+              <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <table align="center" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <a href="#" _label="Category_3">
+                          <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155">
+                        </a>
+                        </td></tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="padding-10">
+                    <h4 style="text-align: center;">
+                      <a href="#" _label="Category_3" style="color: #000000;">Category 3&nbsp;&rsaquo;</a>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td class="mobile-50 ltr" bgcolor="E5E7EB">
+              <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <table align="center" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <a href="#" _label="Category_2">
+                          <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155">
+                        </a>
+                        </td></tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="padding-10">
+                    <h4 style="text-align: center;">
+                      <a href="#" _label="Category_2" style="color: #000000;">Category 2&nbsp;&rsaquo;</a>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr></table>
+        </td>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table>
+  <table class="section header bg-white" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0 0 30px;">
+    <table class="row" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        <td dir="rtl" class="row-col">
+          <table class="mobile-row" cellpadding="0" cellspacing="0" border="0"><tr>
+            <td class="mobile-50 ltr" bgcolor="E5E7EB">
+              <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <table align="center" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <a href="#" _label="Category_5">
+                          <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155">
+                        </a>
+                        </td></tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="padding-10">
+                    <h4 style="text-align: center;">
+                      <a href="#" _label="Category_5" style="color: #000000;">Category 5&nbsp;&rsaquo;</a>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td class="mobile-50 ltr" bgcolor="f3f4f6">
+              <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <table align="center" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <a href="#" _label="Category_4">
+                          <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155">
+                        </a>
+                        </td></tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="padding-10">
+                    <h4 style="text-align: center;">
+                      <a href="#" _label="Category_4" style="color: #000000;">Category 4&nbsp;&rsaquo;</a>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr></table>
+        </td>
+        <td class="row-col" bgcolor="f3f4f6">
+          <table class="mobile-row" cellpadding="0" cellspacing="0" border="0"><tr>
+            <td class="mobile-50" bgcolor="f3f4f6">
+              <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <table align="center" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <a href="#" _label="Category_6">
+                          <img src="https://s7d6.scene7.com/is/image/bjs/placeholder-four-col-1" alt="Placeholder" border="0" width="155">
+                        </a>
+                        </td></tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="padding-10">
+                    <h4 style="text-align: center;">
+                      <a href="#" _label="Category_6" style="color: #000000;">Category 6&nbsp;&rsaquo;</a>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td class="mobile-50" bgcolor="cc0033">
+              <table class="four-col-1" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="padding-20">
+                    <h2 style="color: #ffffff; text-align: center;">Shop Great Deals</h2>
+                    <table align="center" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <img src="https://s7d6.scene7.com/is/image/bjs/ICONS_WHITE_Membership?$png$" alt="Placeholder" border="0" width="40" style="width:40px !important;">
+                        </td></tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr></table>
+        </td>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table>
+  <!-- END OF MODULE: Categories -->
+  
+  <!-- End Copy -->
+  
+  
+  <!-- START FOOTER -->
+  <table class="section footer" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0;">
+    <table class="row bg-lt-grey" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        <td class="row-col">
+          <table class="six-col-2" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="padding: 10px;">
+                <table align="center" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td style="padding: 10px 0;">
+                    <table align="left" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <a href="#" _label="Footer_SDD">
+                          <img src="https://s7d6.scene7.com/is/image/bjs/BJs_SDD-Footer_Icon-Grey?$png$" alt="BJ's Same Day Delivery" border="0" width="55" style="width:55px !important;">
+                        </a>
+                      </td></tr>
+                    </table>
+                  </td>
+                  <td class="footer-button-text">
+                    <h4><a href="#" _label="Footer_SDD">Order Same-Day Delivery&nbsp;&rsaquo;</a></h4>
+                  </td>
+                </tr></table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that becomes horizontal spacer on mobile -->
+        <th class="row-col mobile-hidden" width="10" height="10" style="font-size:10px; line-height:10px;">&nbsp;</th>
+        <td class="row-col">
+          <table class="six-col-2" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="padding: 10px;">
+                <table align="center" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td style="padding: 10px 0;">
+                    <table align="left" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <a href="#" _label="Footer_BOPIC">
+                          <img src="https://s7d6.scene7.com/is/image/bjs/BJs_BOPIC-Footer_Icon-Grey?$png$" alt="Curbside Pickup" border="0" width="55" style="width:55px !important;">
+                        </a>
+                        </td></tr>
+                    </table>
+                  </td>
+                  <td class="footer-button-text">
+                    <h4><a href="#" _label="Footer_BOPIC">Order Curbside Pickup&nbsp;&rsaquo;</a></h4>
+                  </td>
+                </tr></table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that becomes horizontal spacer on mobile -->
+        <th class="row-col mobile-hidden" width="10" height="10" style="font-size:10px; line-height:10px;">&nbsp;</th>
+        <td class="row-col">
+          <table class="six-col-2" width="155" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="padding: 10px;">
+                <table align="center" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td style="padding: 10px 0;">
+                    <table align="left" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td><!-- Image Padding Here .img-padding -->
+                        <a href="#" _label="Footer_SDD">
+                          <img src="https://s7d6.scene7.com/is/image/bjs/BJs_App-Footer_Icon-Grey?$png$" alt="BJ's App" border="0" width="55" style="width:55px !important;">
+                        </a>
+                        </td></tr>
+                    </table>
+                  </td>
+                  <td class="footer-button-text">
+                    <h4><a href="#" _label="Footer_SDD">Download the BJ's App&nbsp;&rsaquo;</a></h4>
+                  </td>
+                </tr></table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table>
+  <table class="section" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0">
+    <table class="row bg-lt-grey" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+        <td class="row-col"><!-- Row Vertical Padding Here .row-padding -->
+           <table class="four-col-4" width="620" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="padding: 10px 5px 15px">
+                <table class="btn btn-red" align="center" width="100%">
+                  <tr><td>
+                    <a href="https://bjs.onelink.me/rnBI/neavndel" _label="Button_All_Coupons">See All Coupons</a>
+                    </td></tr>
+                </table>
+              </td>
+             </tr>
+          </table>
+        </td>
+        <!-- Vertical spacer that hides on mobile -->
+        <td class="mobile-hidden" width="10">&nbsp;</td>
+      </tr>
+    </table>
+  </td></tr></table>
+  
+  
+  <table class="section footer" align="center" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0">
+    <table class="row bg-lt-grey" align="center" width="640" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td class="row-col"><!-- Row Vertical Padding Here .row-padding -->
+          <table class="four-col-4" width="620" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="footer-padding text-center">
+                <h4 style="text-align: center; margin: 10px auto 20px;"><a href="https://bjs.onelink.me/rnBI/neavndel" _label="Footer_Coupons_Link">Coupons</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.bjs.com/account/rewards" _label="Footer_MySavings_Link">My Savings</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.bjs.com/deals" _label="Footer_Deals_Link">Deals</a>&nbsp;&nbsp;<a href="https://www.bjs.com/content?template=B&espot_main=ExclusiveMemberBenefits" _label="Footer_Services_Link" style="display:inline-block;">|&nbsp;&nbsp;BJ's Services</a></h4>
+                <p style="text-align: center;">Availability and pricing may change and vary by club or BJs.com. See website for all offer details. While supplies last. No rain checks. Sales tax may be due on all or part of pre-discounted price. For multiple-item promotional offers, discount is based on lowest priced item (if not specified) and may be applied to each qualifying item proportionally. While BJ’s tries to ensure that listed prices are accurate, BJ’s is not responsible for typographical or printing errors. Product names and other trademarks are the property of the respective trademark holders.</p>
+                
+                <p style="text-align: center;"><strong>*Featured savings: In-club clipless coupons and instant savings on BJs.com are manufacturer funded. Sales tax may be due on all or part of pre-discounted price. For multiple-item promotional offers, discount is based on lowest priced item (if not specified) and may be applied to each qualifying item proportionally. Additional shipping charges may apply for items ordered on BJs.com.</strong></p>
+                
+                <p style="text-align: center;">**Apply and use at checkout. Offer available for qualifying applicants and subject to financing approval. Actual monthly payment may vary based on creditworthiness and term length. Learn more at <a href="https://www.bjs.com/help/buy-now-pay-later" style="color:#595959;" target="_blank">BJs.com/CitizensPay</a>.</p>
+                
+                <p style="text-align: center;">BJ's takes pride in offering email updates. If you would like to <a href="#" target="_blank" style="color:#595959;">unsubscribe</a> from our mailing list, please <a href="#" target="_blank" style="color:#595959;">click here</a> or write to: BJ’s Wholesale Club, Inc., Attn: Member Services, P.O. Box 9157, Marlborough, MA 01752. This email may be considered promotional or advertising.</p>
+                
+                <p style="text-align: center;">©2023 BJ's Wholesale Club, Inc.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    </td></tr></table> <!-- End Section -->
+  <!-- END FOOTER -->
+</body>
+</html>
